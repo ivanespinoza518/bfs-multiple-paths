@@ -1,0 +1,38 @@
+# IntelliJ IDEA project files
+.idea/
+*.iml
+*.iws
+
+# Build directories
+/out/
+/bin/
+
+# Compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven and Gradle
+/target/
+/.gradle/
+/build/
+
+# Logs and temp files
+*.log
+*.tmp
+/shelf/
+/workspace.xml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Secret files
+.env
+*.key
+*.pem
+
+# CI/CD and Docker
+/.github/
+docker-compose.override.yml
